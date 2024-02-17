@@ -1,8 +1,8 @@
-package com.telusko.joblisting.repository;
-
-import com.telusko.joblisting.model.Post;
+package com.joblisting.repository;
 
 import java.util.List;
+
+import com.joblisting.model.Post;
 
 public interface SearchRepository {
 

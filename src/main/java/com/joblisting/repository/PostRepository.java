@@ -1,9 +1,9 @@
-package com.telusko.joblisting.repository;
+package com.joblisting.repository;
 
-import com.telusko.joblisting.model.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import com.joblisting.model.Post;
 
 public interface PostRepository extends MongoRepository<Post,String>
 {
-
+	
 }
